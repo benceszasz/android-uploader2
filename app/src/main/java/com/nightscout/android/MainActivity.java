@@ -96,7 +96,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.d(TAG, "OnCreate called.");
+        Log.d(TAG, "OnCreate called");
 
         preferences = new AndroidPreferences(getApplicationContext());
         migrateToNewStyleRestUris();
